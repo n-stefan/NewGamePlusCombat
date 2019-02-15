@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="NewGamePlusCombat" displayName="Mods.mods_newgamepluscombat">
+		<VisibleVars>
+			<Var id="MaxPlayerLevel" displayName="mod_newgamepluscombat_maxplayerlevel" displayType="SLIDER;100;999;899" tags="customDisplayName" visibilityCondition="!mainMenu"/>
+			<Var id="NewGamePlusCombatLevel" displayName="mod_newgamepluscombat_newgamepluscombatlevel" displayType="SLIDER;30;999;969" tags="customDisplayName" visibilityCondition="!mainMenu"/>
+			<Var id="NoEquipmentLevelRequirement" displayName="mod_newgamepluscombat_noequipmentlevelrequirement" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="EquipmentLeveling" displayName="mod_newgamepluscombat_equipmentleveling" displayType="OPTIONS" tags="customNames;customDisplayName" visibilityCondition="!mainMenu">
+				<OptionsArray>
+					<Option id="0" displayName="mod_newgamepluscombat_equipmentlevelingoff">
+						<Entry varId="EquipmentLeveling" value="0"/>
+					</Option>
+					<Option id="1" displayName="mod_newgamepluscombat_equipmentlevelingrestore">
+						<Entry varId="EquipmentLeveling" value="1"/>
+					</Option>
+					<Option id="2" displayName="mod_newgamepluscombat_equipmentlevelingmatch">
+						<Entry varId="EquipmentLeveling" value="2"/>
+					</Option>
+					<Option id="3" displayName="mod_newgamepluscombat_equipmentlevelingvanilla">
+						<Entry varId="EquipmentLeveling" value="3"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="SetNpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_setnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="RandomNpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_randomnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="NpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_npclevelvsplayerlevel" displayType="SLIDER;-30;30;60" tags="customDisplayName"/>
+			<Var id="EnemyStrafing" displayName="mod_newgamepluscombat_enemystrafing" displayType="OPTIONS" tags="customNames;customDisplayName">
+				<OptionsArray>
+					<Option id="0" displayName="mod_newgamepluscombat_enemystrafingnorun">
+						<Entry varId="EnemyStrafing" value="0"/>
+					</Option>
+					<Option id="1" displayName="mod_newgamepluscombat_enemystrafingrun">
+						<Entry varId="EnemyStrafing" value="1"/>
+					</Option>
+					<Option id="2" displayName="mod_newgamepluscombat_off">
+						<Entry varId="EnemyStrafing" value="2"/>
+					</Option>
+				</OptionsArray>
+			</Var>
+			<Var id="Jumping" displayName="mod_newgamepluscombat_jumping" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="Looting" displayName="mod_newgamepluscombat_looting" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="PreferDamageMultipliers" displayName="mod_newgamepluscombat_preferdamagemultipliers" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="ChanceOfDealingAlteredDamage" displayName="mod_newgamepluscombat_chanceofdealingaltereddamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="DamageDealtMultiplier" displayName="mod_newgamepluscombat_damagedealtmultiplier" displayType="SLIDER;0.5;2;150" tags="customDisplayName"/>
+			<Var id="ChanceOfTakingAlteredDamage" displayName="mod_newgamepluscombat_chanceoftakingaltereddamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="DamageTakenMultiplier" displayName="mod_newgamepluscombat_damagetakenmultiplier" displayType="SLIDER;0.5;2;150" tags="customDisplayName"/>
+			<Var id="PreferDamageLimiters" displayName="mod_newgamepluscombat_preferdamagelimiters" displayType="TOGGLE" tags="customDisplayName"/>
+			<Var id="MaxDamageDealt" displayName="mod_newgamepluscombat_maxdamagedealt" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
+			<Var id="MaxDamageTaken" displayName="mod_newgamepluscombat_maxdamagetaken" displayType="SLIDER;10;100;90" tags="customDisplayName"/>
+			<Var id="ChanceOfWeaponDamage" displayName="mod_newgamepluscombat_chanceofweapondamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="ChanceOfArmorDamage" displayName="mod_newgamepluscombat_chanceofarmordamage" displayType="SLIDER;0;100;100" tags="customDisplayName"/>
+			<Var id="CombatAnimSpeedMultiplier" displayName="mod_newgamepluscombat_combatanimspeedmultiplier" displayType="SLIDER;1;2;100" tags="customDisplayName"/>
+			<Var id="RichMerchants" displayName="mod_newgamepluscombat_richmerchants" displayType="TOGGLE" tags="customDisplayName"/>
+		</VisibleVars>
+	</Group>
+</UserConfig>
