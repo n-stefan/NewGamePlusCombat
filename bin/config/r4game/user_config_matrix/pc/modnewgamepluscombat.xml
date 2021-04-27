@@ -21,6 +21,7 @@
 					</Option>
 				</OptionsArray>
 			</Var>
+			<Var id="EquipmentLevelingMatchAll" displayName="mod_newgamepluscombat_equipmentlevelingmatchall" displayType="TOGGLE" tags="customDisplayName" visibilityCondition="!mainMenu"/>
 			<Var id="SetNpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_setnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
 			<Var id="RandomNpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_randomnpclevelvsplayerlevel" displayType="TOGGLE" tags="customDisplayName"/>
 			<Var id="NpcLevelVsPlayerLevel" displayName="mod_newgamepluscombat_npclevelvsplayerlevel" displayType="SLIDER;-30;30;60" tags="customDisplayName"/>
